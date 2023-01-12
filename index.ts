@@ -7,4 +7,3 @@ io.on('connection', (socket) => {
   console.log('Client Connected');
   sockets.push(socket);
 });
-io.listen(80);
